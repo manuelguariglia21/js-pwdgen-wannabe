@@ -16,5 +16,6 @@ const yourpass = firstname + lastname + color + 21;
 document.getElementById('your-password').innerHTML = 
 `
 <h2>La tua password è: ${yourpass}</h2>
+<p>La lunghezza della password generata è: ${yourpass.length}</p>
 
 `;
